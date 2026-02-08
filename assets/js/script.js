@@ -37,6 +37,7 @@ form.addEventListener("submit", (event) => {
         return;
     }
 
-    alert("Message sent successfully!");
+    form.submit();
     form.reset();
 });
+

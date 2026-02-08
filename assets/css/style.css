@@ -133,22 +133,39 @@ nav ul li a:hover {
    /* ABOUT SECTION  */
 
 #about {
-    background: #f2e9e4;
-    color: #1f2933;
+    background: linear-gradient(135deg, #0F172A, #020617);
+    color: white;
     max-width: 900px;
     margin: 80px auto;
-    padding: 40px;
-    border-radius: 14px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+    border:1px solid rgba(255,255,255,0.06);
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border 0.35s ease;
 }
 
 #about h1 {
-    margin-bottom: 16px;
+    margin-bottom: 18px;
+    font-size: 2rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
 }
 
 #about p {
-    color: #334155;
-    margin-bottom: 8px;
+    color: #E5E7EB;;
+    margin-bottom: 12px;
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+#about:hover{
+    transform: translateY(-8px);
+    box-shadow:
+        0 28px 60px rgba(0,0,0,0.55),
+        0 0 0 1px rgba(59, 130, 246, 0.45)
 }
 
 
@@ -413,5 +430,6 @@ footer {
         display: flex;
     }
 }
+
 
 

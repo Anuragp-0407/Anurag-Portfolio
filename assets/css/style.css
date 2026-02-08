@@ -317,6 +317,32 @@ nav ul li a:hover {
     background-color: lightblue;
 }
 
+.contact-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-links li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-links i {
+    color: #2563eb;
+    font-size: 18px;
+}
+
+.contact-links a {
+    color: #cbd5f5;
+    transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+    color: #2563eb;
+}
+
    /* FOOTER */
 footer {
     text-align: center;
@@ -387,4 +413,5 @@ footer {
         display: flex;
     }
 }
+
 

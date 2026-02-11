@@ -36,8 +36,6 @@ form.addEventListener("submit", (event) => {
         alert("Please fill all the fields");
         return;
     }
-
     form.submit();
     form.reset();
 });
-
